@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Atlas - Monte seu PC.</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap">
+    <link rel="stylesheet" href="montepc.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <a href="pagina2.html">Início</a>
+        <a href="pagina3.html">Componentes</a>
+        <a href="montepc.html" class="menu-active" aria-current="page">Monte seu PC</a>
+        <a href="quemsomos.html">Quem Somos</a>
+        <a href="paleta.html">Paleta</a>
+        <a href="index.html">Grupo</a>
+      </nav>
+    </header>
+    <main class="page-main setup-page">
+      <p class="eyebrow">CONFIGURADOR DE SETUP</p>
+      <h1>Monte seu PC.</h1>
+      <p class="intro">Explore exemplos de peças e entenda como uma configuração equilibrada funciona para o seu uso.</p>
+      <div class="two-cols setup-layout">
+        <div class="panel">
+          <h2 class="section-label cyan-text">SEU SETUP DE REFERÊNCIA</h2>
+          <h3>Escolha um perfil</h3>
+          <div class="choice-row" id="profiles">
+            <input type="radio" name="perfil" id="perfil-0" class="choice-input">
+            <label for="perfil-0" class="choice">Estudos</label>
+            <input type="radio" name="perfil" id="perfil-1" class="choice-input" checked>
+            <label for="perfil-1" class="choice">Games</label>
+            <input type="radio" name="perfil" id="perfil-2" class="choice-input">
+            <label for="perfil-2" class="choice">Criação</label>
+            <input type="radio" name="perfil" id="perfil-3" class="choice-input">
+            <label for="perfil-3" class="choice">Trabalho</label>
+          </div>
+          <div class="spec-list">
+            <a href="escolherpecas.html" class="destaque">
+              <strong>PROCESSADOR</strong>
+              <span>Ryzen 5 / Core i5</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html">
+              <strong>RESFRIAMENTO</strong>
+              <span>Air Cooler torre</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html">
+              <strong>PLACA-MÃE</strong>
+              <span>B550 / B760</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html" class="destaque">
+              <strong>MEMÓRIA RAM</strong>
+              <span>16 GB - dual channel</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html">
+              <strong>PLACA DE VÍDEO</strong>
+              <span>RTX 4060 / RX 7600</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html">
+              <strong>ARMAZENAMENTO</strong>
+              <span>SSD NVMe 1 TB</span>
+              <b>⌄</b>
+            </a>
+            <a href="escolherpecas.html" class="destaque">
+              <strong>GABINETE</strong>
+              <span>Mid Tower Airflow</span>
+              <b>⌄</b>
+            </a>
+          </div>
+        </div>
+        <div class="panel">
+          <h2 class="section-label cyan-text">RESUMO DO SETUP</h2>
+          <div class="huge">
+            <strong>08</strong>
+            <div>peças principais<br>
+              <span>R$ 7.525,56 (ref.)</span>
+            </div>
+          </div>
+          <hr>
+          <label class="section-label cyan-text" for="game">QUAL JOGO VOCÊ QUER JOGAR?</label>
+          <select id="game">
+            <option>Valorant</option>
+            <option>Fortnite</option>
+            <option>GTA V</option>
+          </select>
+          <p class="section-label cyan-text">META DE FPS</p>
+          <div class="choice-row" id="fps">
+            <input type="radio" name="fps" id="fps-0" class="choice-input">
+            <label for="fps-0" class="choice">60 FPS</label>
+            <input type="radio" name="fps" id="fps-1" class="choice-input" checked>
+            <label for="fps-1" class="choice">144 FPS</label>
+            <input type="radio" name="fps" id="fps-2" class="choice-input">
+            <label for="fps-2" class="choice">240 FPS</label>
+          </div>
+          <a class="button primary wide" href="escolherpecas.html">Explorar →</a>
+        </div>
+      </div>
+      <div class="partners">
+        <strong>LOJAS PARCEIRAS PARA PESQUISA</strong>
+        <div>
+          <a href="https://www.kabum.com.br/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/logo-kabum.webp" alt="KaBuM!">
+          </a>
+          <a href="https://www.terabyteshop.com.br/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/logo-terabyte.webp" alt="Terabyte">
+          </a>
+          <a href="https://www.amazon.com.br/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/logo-amazon.webp" alt="Amazon">
+          </a>
+        </div>
+      </div>
+    </main>
+    <div class="pager">
+      <a href="glossario.html" class="nav-button nav-prev">← Anterior</a>
+      <a href="pagina3.html" class="nav-button nav-center">Ver componentes</a>
+      <a href="escolherpecas.html" class="nav-button nav-next">Próxima →</a>
+    </div>
+    <footer class="site-footer">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="pagina2.html">Início</a> · <a href="pagina3.html">Componentes</a> · <a href="montepc.html">Monte seu PC</a> · <a href="quemsomos.html">Quem Somos</a>
+      </div>
+      <a class="contact" href="mailto:contato@pcatlas.com.br">contato@pcatlas.com.br</a>
+      <span>Página 15 de 25</span>
+    </footer>
+  </body>
+</html>

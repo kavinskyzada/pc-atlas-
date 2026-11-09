@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Atlas - Seu alvo em jogos.</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap">
+    <link rel="stylesheet" href="desempenho.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <a href="pagina2.html">Início</a>
+        <a href="pagina3.html">Componentes</a>
+        <a href="montepc.html" class="menu-active">Monte seu PC</a>
+        <a href="quemsomos.html">Quem Somos</a>
+        <a href="paleta.html">Paleta</a>
+        <a href="index.html">Grupo</a>
+      </nav>
+    </header>
+    <main class="page-main performance-page">
+      <p class="eyebrow">DESEMPENHO POR JOGO</p>
+      <h1>Seu alvo em jogos.</h1>
+      <p class="intro">Use a build equilibrada como referência para visualizar faixas de desempenho em cenários de 1080p.</p>
+      <input type="radio" name="build" id="build-essencial" class="build-input">
+      <input type="radio" name="build" id="build-equilibrada" class="build-input" checked>
+      <input type="radio" name="build" id="build-desempenho" class="build-input">
+      <div class="profile-tabs">
+        <div>
+          <label for="build-essencial">Essencial</label>
+          <label for="build-equilibrada">Equilibrada</label>
+          <label for="build-desempenho">Desempenho</label>
+        </div>
+        <p>
+          <small>Build de referência</small>
+          <br>Ryzen 5 7600 + RTX 4060</p>
+      </div>
+      <div class="two-cols performance-layout">
+        <div class="panel">
+          <h2 class="section-label cyan-text">ESTIMATIVA DE DESEMPENHO</h2>
+          <p>Faixa ilustrativa para a configuração equilibrada</p>
+          <div class="game-row">
+            <div>
+              <strong>Valorant</strong>
+              <small>1080p · competitivo</small>
+            </div>
+            <span class="meter">
+              <i class="meter-valorant"></i>
+            </span>
+            <b class="lime-text">220 - 300 FPS</b>
+          </div>
+          <div class="game-row">
+            <div>
+              <strong>Fortnite</strong>
+              <small>1080p · alto</small>
+            </div>
+            <span class="meter">
+              <i class="meter-fortnite"></i>
+            </span>
+            <b class="cyan-text">120 - 170 FPS</b>
+          </div>
+          <div class="game-row">
+            <div>
+              <strong>GTA V</strong>
+              <small>1080p · muito alto</small>
+            </div>
+            <span class="meter">
+              <i class="meter-gtav"></i>
+            </span>
+            <b class="purple-text">150 - 190 FPS</b>
+          </div>
+        </div>
+        <div class="panel">
+          <h2 class="section-label cyan-text">OBJETIVO DO SETUP</h2>
+          <h3 id="goal-game">Valorant</h3>
+          <div class="huge">
+            <strong id="goal-fps">
+              <span class="fps-essencial">60 FPS</span>
+              <span class="fps-equilibrada">144 FPS</span>
+              <span class="fps-desempenho">240 FPS</span>
+            </strong>
+          </div>
+          <p>meta selecionada</p>
+          <hr>
+          <h2 class="section-label cyan-text">PARA CHEGAR MAIS LONGE</h2>
+          <p>Aumente a meta de FPS ou troque o jogo para ver qual peça merece prioridade no upgrade.</p>
+          <a class="button wide" href="montepc.html">Ajustar objetivo →</a>
+        </div>
+      </div>
+      <p class="small-note">Estimativas ilustrativas: desempenho real varia com resolução, preset, drivers, temperatura e outros componentes.</p>
+    </main>
+    <div class="pager">
+      <a href="compararbuilds.html" class="nav-button nav-prev">← Anterior</a>
+      <a href="pagina3.html" class="nav-button nav-center">Ver componentes</a>
+      <a href="compatibilidade.html" class="nav-button nav-next">Próxima →</a>
+    </div>
+    <footer class="site-footer">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="pagina2.html">Início</a> · <a href="pagina3.html">Componentes</a> · <a href="montepc.html">Monte seu PC</a> · <a href="quemsomos.html">Quem Somos</a>
+      </div>
+      <a class="contact" href="mailto:contato@pcatlas.com.br">contato@pcatlas.com.br</a>
+      <span>Página 18 de 25</span>
+    </footer>
+  </body>
+</html>

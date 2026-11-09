@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Atlas - Escolha suas peças.</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap">
+    <link rel="stylesheet" href="escolherpecas.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <a href="pagina2.html">Início</a>
+        <a href="pagina3.html">Componentes</a>
+        <a href="montepc.html" class="menu-active">Monte seu PC</a>
+        <a href="quemsomos.html">Quem Somos</a>
+        <a href="paleta.html">Paleta</a>
+        <a href="index.html">Grupo</a>
+      </nav>
+    </header>
+    <main class="page-main choose-page">
+      <p class="eyebrow">CONFIGURADOR PC ATLAS</p>
+      <h1>Escolha suas peças.</h1>
+      <p class="intro">Compare opções de referência e entenda como cada escolha influencia a compatibilidade, o consumo e o desempenho.</p>
+      <div class="steps">
+        <a href="montepc.html">
+          <b>01</b> Perfil</a>
+        <a class="on" href="escolherpecas.html">
+          <b>02</b> Peças</a>
+        <a href="compatibilidade.html">
+          <b>03</b> Verificação</a>
+        <a href="resumo.html">
+          <b>04</b> Resumo</a>
+      </div>
+      <div class="cpu-picker">
+        <input type="radio" name="cpu" id="cpu-amd" class="cpu-input" checked>
+        <input type="radio" name="cpu" id="cpu-intel" class="cpu-input">
+        <div class="three-cols choose-layout">
+          <div class="panel categories-panel">
+            <h2 class="section-label cyan-text">CATEGORIAS</h2>
+            <div class="categories">
+              <a href="processador.html" class="category selected">
+                <span>Processador</span>
+                <b>65 W</b>
+              </a>
+              <a href="cooler.html" class="category">
+                <span>Resfriamento</span>
+                <b>8 W</b>
+              </a>
+              <a href="placamae.html" class="category">
+                <span>Placa-mãe</span>
+                <b>42 W</b>
+              </a>
+              <a href="memoriaram.html" class="category">
+                <span>Memória RAM</span>
+                <b>8 W</b>
+              </a>
+              <a href="placavideo.html" class="category">
+                <span>Placa de vídeo</span>
+                <b>115 W</b>
+              </a>
+              <a href="ssd.html" class="category">
+                <span>Armazenamento</span>
+                <b>5 W</b>
+              </a>
+              <a href="gabinete.html" class="category">
+                <span>Gabinete</span>
+                <b>12 W</b>
+              </a>
+              <a href="fonte.html" class="category">
+                <span>Fonte</span>
+                <b>16 W</b>
+              </a>
+            </div>
+          </div>
+          <div class="panel options-panel">
+            <h2 class="section-label cyan-text" id="category-name">PROCESSADOR</h2>
+            <p>Opções compatíveis com o seu objetivo</p>
+            <div id="options">
+              <div class="option">
+                <img src="imagens/ryzen-7600.webp" alt="AMD Ryzen 5 7600">
+                <div>
+                  <h3>AMD Ryzen 5 7600</h3>
+                  <p>AM5 · 6 núcleos · 12 threads</p>
+                  <small>CONSUMO   65 W</small>
+                  <strong>R$ 1.549,99</strong>
+                </div>
+                <label for="cpu-amd" class="button cpu-button">
+                  <span class="chosen">Escolhido</span>
+                  <span class="choose">Escolher</span>
+                </label>
+              </div>
+              <div class="option">
+                <img src="imagens/intel-i5.webp" alt="Intel Core i5-14400F">
+                <div>
+                  <h3>Intel Core i5-14400F</h3>
+                  <p>LGA 1700 · 10 núcleos</p>
+                  <small>CONSUMO   65 W</small>
+                  <strong>R$ 1.329,90</strong>
+                </div>
+                <label for="cpu-intel" class="button cpu-button">
+                  <span class="chosen">Escolhido</span>
+                  <span class="choose">Escolher</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="panel summary-panel">
+            <h2 class="section-label cyan-text">SEU EXEMPLO</h2>
+            <strong>
+              <span id="summary-game">Valorant</span> · <span id="summary-fps">144</span> FPS</strong>
+            <hr>
+            <div class="huge">
+              <strong>08</strong>
+              <div>peças<br>na referência</div>
+            </div>
+            <hr>
+            <small class="cyan-text">PROCESSADOR</small>
+            <p id="selected-cpu">
+              <span class="amd-name">AMD Ryzen 5 7600</span>
+              <span class="intel-name">Intel Core i5-14400F</span>
+            </p>
+            <small class="reference-note">Valores totais da configuração de referência com Ryzen 5 7600.</small>
+            <small class="cyan-text">CONSUMO DO BUILD</small>
+            <p>
+              <b class="orange-text">271 W</b> · estimativa em carga</p>
+            <small class="cyan-text">VALOR DE REFERÊNCIA</small>
+            <p>
+              <b class="lime-text">R$ 7.525,56</b>
+            </p>
+            <a class="button primary wide" href="resumo.html">Ver resumo →</a>
+          </div>
+        </div>
+      </div>
+      <p class="small-note">Consumos estimados do setup. O total pode variar conforme uso, modelo e periféricos.</p>
+    </main>
+    <div class="pager">
+      <a href="montepc.html" class="nav-button nav-prev">← Anterior</a>
+      <a href="pagina3.html" class="nav-button nav-center">Ver componentes</a>
+      <a href="compararbuilds.html" class="nav-button nav-next">Próxima →</a>
+    </div>
+    <footer class="site-footer">
+      <a class="logo" href="pagina2.html">
+        <span class="logo-icon">
+          <span class="logo-hole"></span>
+        </span>
+        <span class="logo-text">
+          <strong>PC ATLAS</strong>
+          <small>GUIA DE HARDWARE</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="pagina2.html">Início</a> · <a href="pagina3.html">Componentes</a> · <a href="montepc.html">Monte seu PC</a> · <a href="quemsomos.html">Quem Somos</a>
+      </div>
+      <a class="contact" href="mailto:contato@pcatlas.com.br">contato@pcatlas.com.br</a>
+      <span>Página 16 de 25</span>
+    </footer>
+  </body>
+</html>
